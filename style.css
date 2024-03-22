@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    color: rgb(49,74,83);
+    font-size: 18px;
+    
+    
+}
+body {
+    padding: 10px 0;
+    
+}
+.header {
+    margin-top: -10px;
+    background-image: url(images/lucas-clara-hvPB-UCAmmU-unsplash.jpg) ;
+    background-size: top;
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+}
+h1 {
+    margin-bottom: 30px;
+    font-size: 50px;
+   
+    
+    
+}
+.about-me {
+    display: flex;
+    flex-direction: column;
+    
+}
+.about-me > * {
+    padding-bottom: 20px;
+}
+.about-me img {
+    height: 150px;
+    border-radius: 50%;
+    padding: 50px;
+}
+
+.skills-section {
+    display: flex;
+    flex-direction: column;
+}
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.skills list li {
+   padding-bottom: 10px;
+   text-align: center;
+}
+.skills-header {
+    padding: 15px 0;
+}
+.technologies {
+    text-decoration: underline;
+   
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0;
+}
+h2 {
+    padding: 10px 0;
+    font-size: 36px;
+}
+h3 {
+    padding: 10px 0;
+    font-size: 28px;
+}
+.contact-button {
+    margin: 25px;
+}
+button {
+    background-color: rgb(96,101,78);
+    padding: 12px;
+    border-radius: 10%; 
+    color: rgb(218,220,220);
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(202,212,219);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 25px 0px 25px 25px;
+}
+.footer a {
+    text-decoration: none;
+    padding-right: 15px;
+}
+.footer p {
+    padding: 15px 0;
+}
