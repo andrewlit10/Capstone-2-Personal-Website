@@ -35,6 +35,9 @@ h1 {
 .about-me > * {
     padding-bottom: 20px;
 }
+.about-me p {
+    width: 327px;
+}
 .about-me img {
     height: 150px;
     border-radius: 50%;
@@ -50,7 +53,10 @@ ul {
     list-style-type: none;
     
 }
-
+.skills-contact {
+    justify-content: left;
+    align-items: left;
+}
 .skills list li {
    padding-bottom: 10px;
    text-align: center;
@@ -66,8 +72,13 @@ ul {
 .contact {
     display: flex;
     flex-direction: column;
-    padding: 25px 0 75px 0;
+    padding: 0 50px 75px 50px;
     margin-bottom: 50px;
+    
+    
+}
+.contact p {
+    width: 327px;
 }
 h2 {
     padding: 10px 0;
@@ -92,8 +103,7 @@ button {
     justify-content: center;
     text-align: center;
     background-color: rgb(202,212,219);
-    position: fixed;
-    bottom: 0;
+    margin-bottom: -10px;
     width: 100%;
     padding: 30px 0px 25px 25px;
     
@@ -112,10 +122,9 @@ button {
 
 @media (min-width: 1024px) {
     .skills-contact {
-        justify-content: center;
-        display: flex;
         
-       
+        display: flex;
+        padding: 25px;
         
     }
     .skills, contact {
@@ -130,12 +139,16 @@ button {
     }
     h2 {
         padding-top: 0;
+        padding-bottom: 15px;
     }
     h2.skills-header {
-        padding-top: 0;
+        padding: 0;
     }
-    .skills-section {
-        
+    .contact {
+       margin-bottom: 0; 
         
     }
+
+
+    
 }
